@@ -150,7 +150,7 @@ export function ContactAndFooter() {
             <div>
               <h3 className="text-white font-semibold mb-6">Services</h3>
               <ul className="space-y-4">
-                {['IT Services', 'Web Development', 'Software Solutions', 'e-Commerce', 'Digital Marketing', 'Local SEO'].map((link) => (
+                {['IT Services', 'Web Development', 'Software Solutions', 'e-Commerce', 'Digital Marketing', 'SEO'].map((link) => (
                   <li key={link}><a href="#" className="text-slate-400 text-sm hover:text-cyan-400 transition-colors">{link}</a></li>
                 ))}
               </ul>
